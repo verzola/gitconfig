@@ -1,0 +1,51 @@
+[user]
+	name = Gustavo Verzola
+	email = verzola@gmail.com
+[alias]
+  a = add
+  amend = commit --amend
+  b = branch
+  branches = branch -a
+  c  = commit
+  cb = checkout -b
+  cbd = checkout develop
+  cbm = checkout master
+  co = checkout
+  d = diff
+  dc = diff --cached
+  l = log --all --graph --decorate --oneline --abbrev-commit
+  p = push
+  pl = pull
+  pod = pull origin develop
+  pom = pull origin master
+  remotes = remote -v
+  revert = checkout --
+  s = status -s
+  squash = merge --squash
+  st = status -s
+  tags = tag -l
+[credential]
+  helper = store
+[core]
+  pager = diff-so-fancy | less --tabs=4 -RFX
+[color]
+	ui = true
+  branch = true
+  diff = true
+  status = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = 11
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
