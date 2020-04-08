@@ -1,6 +1,6 @@
 [user]
-	name = Gustavo Verzola
-	email = verzola@gmail.com
+  name = Gustavo Verzola
+  email = verzola@gmail.com
 [alias]
   a = add
   amend = commit --amend
@@ -29,23 +29,23 @@
 [core]
   pager = diff-so-fancy | less --tabs=4 -RFX
 [color]
-	ui = true
+  ui = true
   branch = true
   diff = true
   status = true
 [color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22
+  oldNormal = red bold
+  oldHighlight = red bold 52
+  newNormal = green bold
+  newHighlight = green bold 22
 [color "diff"]
-	meta = 11
-	frag = magenta bold
-	commit = yellow bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
+  meta = 11
+  frag = magenta bold
+  commit = yellow bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
 [diff]
-	tool = vimdiff
+  tool = vimdiff
 [merge]
-	tool = vimdiff
+  tool = vimdiff
